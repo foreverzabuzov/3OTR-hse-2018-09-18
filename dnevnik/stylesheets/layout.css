@@ -17,7 +17,7 @@ p {
 .navbox {
   display: flex;
 
-  width: 270px;
+  width: 220px;
   margin-top: 5px;
   margin-bottom: 5px;
 
@@ -107,7 +107,8 @@ article {
   position: relative;
 
   width: 100%;
-  height: 200px;
+  min-height: 200px;
+  max-height: 400px;
 
   color: rgba(#408c80, 0.5);
   background-position:center
@@ -164,6 +165,22 @@ article {
   text-align: left;
 
   color: white;
+}
+
+#timeline {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+#timeline>span {
+  font-family: AristaProAlternate-Regular;
+  font-size: 20px;
+}
+
+#timeline>a {
+  margin: 20px;
 }
 
 footer {
