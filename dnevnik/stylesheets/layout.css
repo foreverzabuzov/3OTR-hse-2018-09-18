@@ -76,13 +76,22 @@ a {
   margin: 1px;
 }
 
+#posts {
+  display: flex;
+  flex-direction: column;
 
+  min-height: 579px;
+  max-height: 1000px;
+
+  justify-content: space-around;
+}
 #top-stories {
   display: flex;
 
-  margin-top: 100px;
+  margin-top: 25px;
 
   justify-content: space-around;
+  align-content: center;
 
 }
 
@@ -91,7 +100,7 @@ article {
   flex-direction: column;
 
   width: 300px;
-  min-height: 350px;
+  min-height: 340px;
   max-height: 700px;
   margin: 0px;
 
@@ -126,6 +135,25 @@ article {
   font-family: CodecColdLogo-Regular;
   font-size: 12px;
 }
+
+.date {
+  position: absolute;
+  top: 6px;
+  right:16px;
+
+  color: white;
+
+  font-family: CodecColdLogo-Regular;
+  font-size: 12px;
+
+}
+.date>img{
+  width: 11px;
+  height: 11px;
+  margin-top: 1px;
+  margin-left: 2px;
+}
+
 .zag {
   position: absolute;
   bottom: 20px;
@@ -145,6 +173,8 @@ article {
 }
 
 .lead {
+  margin-top: 20px;
+
   text-align: left;
 
   font-family: CodecColdLogo-Light;
@@ -155,7 +185,7 @@ article {
   display: flex;
   flex-direction: column;
 
-  margin: 2px 20px 20px 16px;
+  margin: 10px 20px 10px 16px;
 
 }
 
@@ -169,6 +199,8 @@ article {
 
 #timeline {
   display: flex;
+
+  margin-bottom: 10px;
 
   justify-content: center;
   align-items: center;
