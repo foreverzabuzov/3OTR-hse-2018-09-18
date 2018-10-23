@@ -135,3 +135,13 @@ blockquote {
 img {
   width: 700px;
 }
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+nav ul li ul {
+  color: gray;
+}
