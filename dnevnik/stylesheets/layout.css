@@ -50,6 +50,10 @@ a {
   width: 1000px;
 }
 
+#divider3 {
+  margin: 3px;
+}
+
 .socialmedia {
   position: sticky;
 
@@ -60,11 +64,12 @@ a {
   margin-right: 8px;
   margin-bottom: 5px;
 
-  font-family: AristaProAlternate-Regular;
-  font-size: 22px;
-
   align-items: center;
   justify-content: space-evenly;
+}
+
+.socialmedia>a {
+  height: 25px;
 }
 
 .socialmedia>img {
