@@ -33,11 +33,13 @@ p {
   width: 220px;
   margin-top: 5px;
   margin-bottom: 5px;
+  padding-left: 71px;
 
   font-family: AristaProAlternate-Regular;
   font-size: 22px;
 
   align-items: center;
+  justify-content: center;
 
 }
 a {
@@ -61,7 +63,7 @@ a {
 
   display: flex;
 
-  width: 220px;
+  width: 180px;
   margin-top: 5px;
   margin-right: 8px;
   margin-bottom: 5px;
@@ -92,6 +94,8 @@ a {
   position: relative;
 
   width: auto;
+  min-height: 340px;
+  max-height: 700px;
 
   border-top: 2px solid #408C80;
   border-right: none;
@@ -100,6 +104,34 @@ a {
   background-image: url("https://i.postimg.cc/ZnW1vmdy/mainstory.jpg");
   background-position: center;
   background-size: cover;
+}
+
+#type {
+  position: absolute;
+  top: 15px;
+  left: 25px;
+
+  color: white;
+
+  font-family: CodecColdLogo-Regular;
+  font-size: 15px;
+}
+
+#date {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+
+  color: white;
+
+  font-family: CodecColdLogo-Regular;
+  font-size: 15px;
+}
+
+#date>img {
+  width: 15px;
+  height: 15px;
+  margin-left: 2px;
 }
 
 #zag {
@@ -128,21 +160,22 @@ a {
 #top-stories {
   display: flex;
 
-  margin-top: 25px;
+  margin-top: 30px;
 
-  justify-content: space-around;
+  justify-content: center;
   align-content: center;
 
 }
 
-article {
+.posts {
   display: flex;
   flex-direction: column;
 
   width: 350px;
   min-height: 340px;
   max-height: 700px;
-  margin: 0px;
+  margin-right: 50px;
+  margin-left: 50px;
 
   border: 1px solid #408C80;
 
@@ -193,7 +226,7 @@ article {
 .zag {
   position: absolute;
   bottom: 20px;
-  left: 16px;
+  left: 20px;
 
   color: white;
 
@@ -221,7 +254,10 @@ article {
   display: flex;
   flex-direction: column;
 
-  margin: 10px 20px 10px 16px;
+  margin: 20px 20px 10px 20px;
+
+  justify-content: center;
+  align-items: center;
 
 }
 
@@ -236,7 +272,7 @@ article {
 #timeline {
   display: flex;
 
-  margin-top: 40px;
+  margin-top: 30px;
   margin-bottom: 20px;
 
   justify-content: center;
@@ -253,7 +289,7 @@ article {
 }
 
 footer {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   left: 0;
 
@@ -264,13 +300,14 @@ footer {
   padding-left: 10px;
 
   color: black;
-  border-top: 1px solid #408C80;
+  border-top: 2px solid #408C80;
+  background-color: rgb(255, 255, 255);
 
   font-family: AristaProAlternate-Regular;
   font-size: 15px;
 
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .circle {
