@@ -1,6 +1,19 @@
 p {
   font-size: 100%;
 }
+
+.topbar {
+  display: flex;
+
+  width: auto;
+
+  border-bottom: 1px solid #408C80;
+
+  align-items: center;
+  justify-content: space-between;
+
+}
+
 .logo {
   position: sticky;
 
@@ -25,23 +38,12 @@ p {
   font-size: 22px;
 
   align-items: center;
-  justify-content: center;
+
 }
 a {
   text-decoration: none;
 }
 
-.topbar {
-  display: flex;
-
-  width: auto;
-
-  border-bottom: 1px solid #408C80;
-
-  align-items: center;
-  justify-content: space-between;
-
-}
 #divider {
   margin: 15px;
 }
@@ -80,11 +82,49 @@ a {
   display: flex;
   flex-direction: column;
 
-  min-height: 579px;
-  max-height: 1000px;
+  min-height: auto;
+  max-height: 3000px;
 
   justify-content: space-around;
 }
+
+#cover-story {
+  position: relative;
+
+  width: auto;
+
+  border-top: 2px solid #408C80;
+  border-right: none;
+  border-bottom: 2px solid #408C80;
+  border-left: none;
+  background-image: url("https://i.postimg.cc/ZnW1vmdy/mainstory.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#zag {
+  position: absolute;
+  bottom: 60px;
+  left: 25px;
+
+  color: rgb(255, 255, 255);
+
+  font-family: AristaProAlternate-Regular;
+  font-size: 60px;
+}
+
+#lead {
+  position: absolute;
+  bottom: 20px;
+  left: 25px;
+
+  color: white;
+
+  font-family: CodecColdLogo-Regular;
+  font-size: 20px;
+}
+
+
 #top-stories {
   display: flex;
 
@@ -99,12 +139,10 @@ article {
   display: flex;
   flex-direction: column;
 
-  width: 300px;
+  width: 350px;
   min-height: 340px;
   max-height: 700px;
   margin: 0px;
-
-  transition: box-shadow .1s, background 1.5s;
 
   border: 1px solid #408C80;
 
@@ -120,8 +158,6 @@ article {
   max-height: 400px;
 
   color: rgba(#408c80, 0.5);
-  background-position:center
-  background-size:cover
 
 }
 
@@ -200,7 +236,8 @@ article {
 #timeline {
   display: flex;
 
-  margin-bottom: 10px;
+  margin-top: 40px;
+  margin-bottom: 20px;
 
   justify-content: center;
   align-items: center;
