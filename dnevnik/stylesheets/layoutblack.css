@@ -1,0 +1,372 @@
+p {
+  font-size: 100%;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+.topbar {
+  display: flex;
+
+  width: auto;
+
+  border-bottom: 1px solid #408C80;
+
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.logo {
+  position: sticky;
+
+  display: flex;
+
+  width: 110px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 8px;
+
+
+}
+
+.navbox {
+  display: flex;
+
+  width: 220px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 65px;
+
+  color: white;
+
+  font-family: AristaProAlternate-Regular;
+  font-size: 22px;
+
+  align-items: center;
+  justify-content: center;
+
+}
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+#divider {
+  margin: 15px;
+}
+
+#divider2 {
+  width: 1000px;
+}
+
+#divider3 {
+  margin: 3px;
+  margin-left: 9px;
+}
+
+.socialmedia {
+  position: sticky;
+
+  display: flex;
+
+  width: 180px;
+  margin-top: 5px;
+  margin-right: 8px;
+  margin-bottom: 5px;
+
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.socialmedia>a {
+  height: 25px;
+}
+
+.socialmedia>img {
+  margin: 1px;
+}
+
+#posts {
+  display: flex;
+  flex-direction: column;
+
+  min-height: auto;
+  max-height: 3000px;
+
+  justify-content: space-around;
+}
+
+#cover-story {
+  position: relative;
+
+  width: auto;
+  min-height: 340px;
+  max-height: 700px;
+
+  border-top: 2px solid #408C80;
+  border-right: none;
+  border-bottom: 2px solid #408C80;
+  border-left: none;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 35%, rgba(0, 0, 0, 0.99) 100%), url("https://i.postimg.cc/4y6CkZVp/fuckcasino.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#type {
+  position: absolute;
+  top: 15px;
+  left: 25px;
+
+  color: white;
+
+  font-family: CodecColdLogo-Regular;
+  font-size: 15px;
+}
+
+#date {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+
+  color: white;
+
+  font-family: CodecColdLogo-Regular;
+  font-size: 15px;
+}
+
+#date>img {
+  width: 15px;
+  height: 15px;
+  margin-left: 2px;
+}
+
+#zag {
+  position: absolute;
+  bottom: 55px;
+  left: 23px;
+
+  color: rgb(255, 255, 255);
+
+  font-family: AristaProAlternate-Regular;
+  font-size: 60px;
+}
+
+#lead {
+  position: absolute;
+  bottom: 20px;
+  left: 25px;
+
+  color: white;
+
+  font-family: CodecColdLogo-Regular;
+  font-size: 20px;
+}
+
+
+#top-stories {
+  display: flex;
+
+  margin-top: 30px;
+
+  justify-content: center;
+  align-content: center;
+
+}
+
+.posts {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+
+  width: 350px;
+  min-height: 340px;
+  max-height: 700px;
+  margin-right: 50px;
+  margin-left: 50px;
+
+  border: 1px solid #408C80;
+
+  align-items: center;
+
+}
+
+#article-image1 {
+  position: relative;
+
+  width: 100%;
+  min-height: 220px;
+  max-height: 400px;
+
+  color: rgba(#408c80, 0.5);
+  color: white;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.6) 100%), url("https://i.postimg.cc/rsb6TG9W/post1.jpg") no-repeat;
+  background-position: top;
+  background-origin: border-box;
+  background-size: cover;
+
+}
+
+#article-image2 {
+  position: relative;
+
+  width: 100%;
+  min-height: 220px;
+  max-height: 400px;
+
+  color: rgba(#408c80, 0.5);
+  color: white;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.6) 100%), url("https://i.postimg.cc/kg9pRXgL/post2.jpg") no-repeat;
+  background-position: top;
+  background-origin: border-box;
+  background-size: cover;
+
+}
+
+#article-image3 {
+  position: relative;
+
+  width: 100%;
+  min-height: 220px;
+  max-height: 400px;
+
+  color: rgba(#408c80, 0.5);
+  color: white;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.6) 100%), url("https://i.postimg.cc/9Mvxmck8/post3.jpg") no-repeat;
+  background-position: top;
+  background-origin: border-box;
+  background-size: cover;
+
+}
+
+
+.type {
+  position: absolute;
+  top: 10px;
+  left: 16px;
+
+  color: white;
+
+  font-family: CodecColdLogo-Regular;
+  font-size: 12px;
+}
+
+.date {
+  position: absolute;
+  top: 6px;
+  right:16px;
+
+  color: white;
+
+  font-family: CodecColdLogo-Regular;
+  font-size: 12px;
+
+}
+.date>img{
+  width: 11px;
+  height: 11px;
+  margin-top: 1px;
+  margin-left: 2px;
+}
+
+.zag {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+
+  color: white;
+
+  font-family: AristaProAlternate-Regular;
+  font-size: 27px;
+}
+
+.quote {
+  text-align: left;
+
+  color: white;
+
+  font-family: CodecColdLogo-LightItalic;
+  font-size: 17px;
+}
+
+.lead {
+  margin-top: 20px;
+
+  text-align: left;
+
+  color: white;
+
+  font-family: CodecColdLogo-Light;
+  font-size: 17px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+
+  margin: 20px 20px 10px 20px;
+
+  justify-content: center;
+  align-items: center;
+
+}
+
+#timeline {
+  display: flex;
+
+  margin-top: 30px;
+  margin-bottom: 20px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+#timeline>span {
+  color: white;
+
+  font-family: AristaProAlternate-Regular;
+  font-size: 20px;
+}
+
+#timeline>a {
+  margin: 20px;
+}
+
+footer {
+  display: flex;
+
+  width: 100%;
+  height: 30px;
+  padding-left: 10px;
+
+  color: white;
+  border-top: 2px solid #408C80;
+  background-color: rgb(0, 0, 0);
+
+  font-family: AristaProAlternate-Regular;
+  font-size: 15px;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.circle {
+  width: 5px;
+  height: 5px;
+  margin: 6px 8px 3px 8px;
+
+  border-radius: 5px;
+  background: #408C80;
+}
+
+.info {
+  display: flex;
+
+  justify-content: flex-start;
+  align-items: center;
+}
