@@ -131,8 +131,10 @@ a:visited {
 
 #date {
   position: absolute;
-  top: 10px;
+  top: 15px;
   right: 25px;
+
+  display: inline-block;
 
   color: white;
 
@@ -141,8 +143,8 @@ a:visited {
 }
 
 #date>img {
-  width: 15px;
-  height: 15px;
+  width: 14px;
+  height: 11px;
   margin-left: 2px;
 }
 
@@ -259,8 +261,10 @@ a:visited {
 
 .date {
   position: absolute;
-  top: 6px;
+  top: 9px;
   right:16px;
+
+  display: inline-block;
 
   color: white;
 
@@ -270,8 +274,6 @@ a:visited {
 }
 .date>img{
   width: 11px;
-  height: 11px;
-  margin-top: 1px;
   margin-left: 2px;
 }
 
