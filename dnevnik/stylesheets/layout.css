@@ -56,6 +56,7 @@ a {
 
 #divider3 {
   margin: 3px;
+  margin-left: 9px;
 }
 
 .socialmedia {
@@ -101,7 +102,7 @@ a {
   border-right: none;
   border-bottom: 2px solid #408C80;
   border-left: none;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.99) 100%), url("https://i.postimg.cc/4y6CkZVp/fuckcasino.png") no-repeat;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 35%, rgba(0, 0, 0, 0.99) 100%), url("https://i.postimg.cc/4y6CkZVp/fuckcasino.png") no-repeat;
   background-position: center;
   background-size: cover;
 }
