@@ -33,7 +33,7 @@ p {
   width: 220px;
   margin-top: 5px;
   margin-bottom: 5px;
-  padding-left: 71px;
+  padding-left: 65px;
 
   font-family: AristaProAlternate-Regular;
   font-size: 22px;
@@ -168,6 +168,8 @@ a {
 }
 
 .posts {
+  position: relative;
+
   display: flex;
   flex-direction: column;
 
@@ -183,16 +185,54 @@ a {
 
 }
 
-.article-image {
+#article-image1 {
   position: relative;
 
   width: 100%;
-  min-height: 200px;
+  min-height: 220px;
   max-height: 400px;
 
   color: rgba(#408c80, 0.5);
+  color: white;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.6) 100%), url("https://i.postimg.cc/rsb6TG9W/post1.jpg") no-repeat;
+  background-position: top;
+  background-origin: border-box;
+  background-size: cover;
 
 }
+
+#article-image2 {
+  position: relative;
+
+  width: 100%;
+  min-height: 220px;
+  max-height: 400px;
+
+  color: rgba(#408c80, 0.5);
+  color: white;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.6) 100%), url("https://i.postimg.cc/kg9pRXgL/post2.jpg") no-repeat;
+  background-position: top;
+  background-origin: border-box;
+  background-size: cover;
+
+}
+
+#article-image3 {
+  position: relative;
+
+  width: 100%;
+  min-height: 220px;
+  max-height: 400px;
+
+  color: rgba(#408c80, 0.5);
+  color: white;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.6) 100%), url("https://i.postimg.cc/9Mvxmck8/post3.jpg") no-repeat;
+  background-position: top;
+  background-origin: border-box;
+  background-size: cover;
+
+}
+
 
 .type {
   position: absolute;
@@ -259,14 +299,6 @@ a {
   justify-content: center;
   align-items: center;
 
-}
-
-.image {
-  position: relative;
-
-  text-align: left;
-
-  color: white;
 }
 
 #timeline {
