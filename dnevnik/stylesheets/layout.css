@@ -46,13 +46,14 @@ a {
   text-decoration: none;
 }
 
+a:visited {
+  color: black;
+}
+
 #divider {
   margin: 15px;
 }
 
-#divider2 {
-  width: 1000px;
-}
 
 #divider3 {
   margin: 3px;
@@ -114,7 +115,7 @@ a {
 
   color: white;
 
-  font-family: CodecColdLogo-Regular;
+  font-family: CodecColdLogo-Bold;
   font-size: 15px;
 }
 
@@ -127,7 +128,7 @@ a {
 
   color: white;
 
-  font-family: CodecColdLogo-Regular;
+  font-family: CodecColdLogo-Bold;
   font-size: 15px;
 }
 
@@ -244,7 +245,7 @@ a {
 
   color: white;
 
-  font-family: CodecColdLogo-Regular;
+  font-family: CodecColdLogo-Bold;
   font-size: 12px;
 }
 
@@ -257,7 +258,7 @@ a {
 
   color: white;
 
-  font-family: CodecColdLogo-Regular;
+  font-family: CodecColdLogo-Bold;
   font-size: 12px;
 
 }

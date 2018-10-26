@@ -1,2 +1,32 @@
 @import "reset.css";
 @import "layout.css";
+
+@font-face {
+  font-family: "AristaProAlternate-Regular";
+
+  src: url("fonts/AristaProAlternate-Regular.otf");
+}
+
+@font-face {
+  font-family: "CodecColdLogo-Regular";
+
+  src: url("fonts/CodecCold-Regular.ttf");
+}
+
+@font-face {
+  font-family: "CodecColdLogo-Light";
+
+  src: url("fonts/CodecColdLogo-Light.ttf");
+}
+
+@font-face {
+  font-family: "CodecColdLogo-LightItalic";
+
+  src: url("fonts/CodecColdLogo-LightItalic.ttf");
+}
+
+@font-face {
+  font-family: "CodecColdLogo-Bold";
+
+  src: url("fonts/CodecColdLogo-Bold.ttf");
+}
